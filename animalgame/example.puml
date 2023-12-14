@@ -1,0 +1,39 @@
+' Alligator
+' Coelacanth
+' Giraffe
+' Platypus
+' Squid
+' Squirrel
+' Tiger
+' Tortoise
+start
+if (Does it start with a letter > q?) then (Yes)
+    if (Does it start with a letter > s?) then (Yes)
+        if (Does it roar?) then (Yes)
+            :Tiger;
+        else (No)
+            :Tortoise;
+        endif
+    else (No)
+        if (Does it live under water?) then (Yes)
+            :Squid;
+        else (No)
+            :Squirrel;
+        endif
+    endif
+else (No)
+    if (Does it start with a letter > f?) then (Yes)
+        if (Does it have long neck?) then (Yes)
+            :Giraffe;
+        else (No)
+            :Platypus;
+        endif
+    else (No)
+        if (Does it eat humans?) then (Yes)
+            :Alligator;
+        else (No)
+            :Coelacanth;
+        endif
+    endif
+endif
+end
