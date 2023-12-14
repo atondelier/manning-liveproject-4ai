@@ -1,11 +1,5 @@
-' Alligator
-' Coelacanth
-' Giraffe
-' Platypus
-' Squid
-' Squirrel
-' Tiger
-' Tortoise
+@startuml
+' to see the result, visit https://kroki.io/plantuml/svg/eNqVkUFrAkEMhe_7K3Jc_0KFFlHoTYR66TG4md3QOFOTrOK_d1ZQ1C47NIdhCO8x33tjjuoVB6hXiQzYwYYNnNg7QBByJ4V3OHzMwDuKUH-TzSrIUzbZX9OrURPquGqYty23pPP7jsQI6nV6VSX1xEYPwthwqMYtj88LHwn62GTcE2boCZSvQ89NEWVQqZKMolxvz8ZyiaFcYoc5haTYQqTdz0SGT1YMgYopNoJ-_u3t_4USZpx-j9EmMBYi3KKn8s8uEwnuMHo3UejtvABpfbw6
 start
 if (Does it start with a letter > q?) then (Yes)
     if (Does it start with a letter > s?) then (Yes)
@@ -37,3 +31,4 @@ else (No)
     endif
 endif
 end
+@enduml
